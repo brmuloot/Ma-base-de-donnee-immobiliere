@@ -1,0 +1,37 @@
+{
+  "width": 808,
+  "height": 364,
+  "cx": [
+    [ "BIEN", 102 ],
+    [ "vendre", 413 ],
+    [ "VENTE", 651 ],
+    [ "posseder", 102 ],
+    [ "COMMUNE", 258 ],
+    [ "compose", 413 ],
+    [ "DEPARTEMENT", 530 ],
+    [ "compose_", 651 ],
+    [ "REGION", 760 ]
+  ],
+  "cy": [
+    [ "BIEN", 102 ],
+    [ "vendre", 102 ],
+    [ "VENTE", 102 ],
+    [ "posseder", 279 ],
+    [ "COMMUNE", 279 ],
+    [ "compose", 279 ],
+    [ "DEPARTEMENT", 279 ],
+    [ "compose_", 279 ],
+    [ "REGION", 279 ]
+  ],
+  "shift": [
+    [ "vendre,BIEN,0", 0 ],
+    [ "vendre,VENTE,0", 0 ],
+    [ "posseder,BIEN,0", 0 ],
+    [ "posseder,COMMUNE,0", 0 ],
+    [ "compose,COMMUNE,0", 0 ],
+    [ "compose,DEPARTEMENT,0", 0 ],
+    [ "compose_,DEPARTEMENT,0", 0 ],
+    [ "compose_,REGION,0", 0 ]
+  ],
+  "ratio": []
+}

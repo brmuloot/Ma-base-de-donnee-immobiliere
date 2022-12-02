@@ -1,0 +1,12 @@
+BIEN : Id_bien, no_voie, type_voie, voie, total_piece, surface_carrez, surface_local, type_local, #id_codedep_codecommune
+:
+vendre, 11 BIEN, 1N VENTE
+:
+VENTE : Id_vente, Id_bien, date, valeur
+
+posseder, 11 BIEN, 1N COMMUNE
+COMMUNE : Id_codedep_codecommune, #code_departement, code_commune, code_postal, nom_commune
+compose, 11 COMMUNE, 1N DEPARTEMENT
+DEPARTEMENT : dep_code, dep_nom, #reg_code
+compose_, 11 DEPARTEMENT, 1N REGION
+REGION : CODREG, reg_nom, aca_nom, regrp_nom, PTOT, PCAP, PMUN

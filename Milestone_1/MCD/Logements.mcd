@@ -1,0 +1,16 @@
+LOGEMENT: Id_logement, type local, surface reel batie, nombre pieces principales
+:
+possede, 1N LOGEMENT, 1N ADRESSE_LOGEMENT : Id_logement, Id_adresse
+:
+ADRESSE_LOGEMENT: Id_adresse, No voie, B/T/Q, code voie, #code ID commune, voie, type de voie, prefixe de section, section, no plan, nombre de lot, surface terrain
+
+appartient, 1N LOT, 1N LOGEMENT : Id_logement, Id_lot
+LOT : Id_lot, 1er lot, surface carrez du 1er lot, 2eme lot, surface carrez du 2eme lot, 3eme lot, surface carrez du 3eme lot, 4eme lot, surface carrez du 4eme lot, 5eme lot, surface carrez du 5eme lot
+
+
+
+subit, 1N MUTATION, 1N LOGEMENT : Id_logement, Id_mutation
+MUTATION: Id_mutation, valeur fonciere, nature mutation, date_mutation, no dispositon 
+COMMUNE: code ID commune, code_commune, commune, code postal, code departement
+:
+situer, 1N COMMUNE, 11 ADRESSE_LOGEMENT

@@ -1,0 +1,37 @@
+{
+  "width": 695,
+  "height": 559,
+  "cx": [
+    [ "LOGEMENT", 93 ],
+    [ "possede", 391 ],
+    [ "ADRESSE_LOGEMENT", 614 ],
+    [ "appartient", 226 ],
+    [ "LOT", 391 ],
+    [ "subit", 93 ],
+    [ "MUTATION", 226 ],
+    [ "COMMUNE", 391 ],
+    [ "situer", 614 ]
+  ],
+  "cy": [
+    [ "LOGEMENT", 128 ],
+    [ "possede", 128 ],
+    [ "ADRESSE_LOGEMENT", 128 ],
+    [ "appartient", 297 ],
+    [ "LOT", 297 ],
+    [ "subit", 491 ],
+    [ "MUTATION", 491 ],
+    [ "COMMUNE", 491 ],
+    [ "situer", 491 ]
+  ],
+  "shift": [
+    [ "possede,LOGEMENT,0", 0 ],
+    [ "possede,ADRESSE_LOGEMENT,0", 0 ],
+    [ "appartient,LOT,0", 0 ],
+    [ "appartient,LOGEMENT,0", 0 ],
+    [ "subit,MUTATION,0", 0 ],
+    [ "subit,LOGEMENT,0", 0 ],
+    [ "situer,COMMUNE,0", 0 ],
+    [ "situer,ADRESSE_LOGEMENT,0", 0 ]
+  ],
+  "ratio": []
+}

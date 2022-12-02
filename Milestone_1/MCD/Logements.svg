@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="695" height="559" viewBox="0 0 695 559" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="695" height="559" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association possede -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<line x1="93" y1="128" x2="391" y2="128" stroke="#35978f" stroke-width="2"/>
+	<text x="182" y="120" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<line x1="614" y1="128" x2="391" y2="128" stroke="#35978f" stroke-width="2"/>
+	<text x="515" y="145" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<g>
+		<path d="M423 94 a14 14 90 0 1 14 14 V119 h-92 V108 a14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<path d="M437 119 v29 a14 14 90 0 1 -14 14 H359 a14 14 90 0 1 -14 -14 V119 H92" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="345" y="94" width="92" height="68" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+		<line x1="345" y1="119" x2="437" y2="119" stroke="#35978f" stroke-width="1"/>
+		<text x="366" y="111.75" fill="#000" font-family="Verdana" font-size="12">possede</text>
+		<text x="352" y="136.8" fill="#000" font-family="Verdana" font-size="12">Id_logement</text>
+		<text x="352" y="153.8" fill="#000" font-family="Verdana" font-size="12">Id_adresse</text>
+	</g>
+</g>
+
+<!-- Association appartient -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<line x1="391" y1="297" x2="226" y2="297" stroke="#35978f" stroke-width="2"/>
+	<text x="277" y="314" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<line x1="93" y1="128" x2="226" y2="297" stroke="#35978f" stroke-width="2"/>
+	<text x="112.02" y="196" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<g>
+		<path d="M258 263 a14 14 90 0 1 14 14 V288 h-92 V277 a14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<path d="M272 288 v29 a14 14 90 0 1 -14 14 H194 a14 14 90 0 1 -14 -14 V288 H92" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="180" y="263" width="92" height="68" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+		<line x1="180" y1="288" x2="272" y2="288" stroke="#35978f" stroke-width="1"/>
+		<text x="195" y="280.75" fill="#000" font-family="Verdana" font-size="12">appartient</text>
+		<text x="187" y="305.8" fill="#000" font-family="Verdana" font-size="12">Id_logement</text>
+		<text x="187" y="322.8" fill="#000" font-family="Verdana" font-size="12">Id_lot</text>
+	</g>
+</g>
+
+<!-- Association subit -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<line x1="226" y1="491" x2="93" y2="491" stroke="#35978f" stroke-width="2"/>
+	<text x="144" y="508" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<line x1="93" y1="128" x2="93" y2="491" stroke="#35978f" stroke-width="2"/>
+	<text x="66" y="196" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<g>
+		<path d="M125 457 a14 14 90 0 1 14 14 V482 h-92 V471 a14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<path d="M139 482 v29 a14 14 90 0 1 -14 14 H61 a14 14 90 0 1 -14 -14 V482 H92" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="47" y="457" width="92" height="68" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+		<line x1="47" y1="482" x2="139" y2="482" stroke="#35978f" stroke-width="1"/>
+		<text x="78" y="474.75" fill="#000" font-family="Verdana" font-size="12">subit</text>
+		<text x="54" y="499.8" fill="#000" font-family="Verdana" font-size="12">Id_logement</text>
+		<text x="54" y="516.8" fill="#000" font-family="Verdana" font-size="12">Id_mutation</text>
+	</g>
+</g>
+
+<!-- Association situer -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<line x1="391" y1="491" x2="614" y2="491" stroke="#35978f" stroke-width="2"/>
+	<text x="457" y="508" fill="#8c510a" font-family="Verdana" font-size="12">1,N</text>
+	<line x1="614" y1="128" x2="614" y2="491" stroke="#35978f" stroke-width="2"/>
+	<text x="619" y="264" fill="#8c510a" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M625 466 a14 14 90 0 1 14 14 V491 h-50 V480 a14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<path d="M639 491 v11 a14 14 90 0 1 -14 14 H603 a14 14 90 0 1 -14 -14 V491 H50" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="589" y="466" width="50" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+		<line x1="589" y1="491" x2="639" y2="491" stroke="#35978f" stroke-width="1"/>
+		<text x="597" y="483.75" fill="#000" font-family="Verdana" font-size="12">situer</text>
+	</g>
+</g>
+
+<!-- Entity LOGEMENT -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<g>
+		<rect x="9" y="77" width="168" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="9" y="102" width="168" height="77" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="9" y="77" width="168" height="102" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="102" x2="177" y2="102" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="59" y="94.75" fill="#000" font-family="Verdana" font-size="12">LOGEMENT</text>
+	<text x="14" y="119.8" fill="#000" font-family="Verdana" font-size="12">Id_logement</text>
+	<line x1="14" y1="122" x2="92" y2="122" stroke="#000" stroke-width="1"/>
+	<text x="14" y="136.8" fill="#000" font-family="Verdana" font-size="12">type local</text>
+	<text x="14" y="153.8" fill="#000" font-family="Verdana" font-size="12">surface reel batie</text>
+	<text x="14" y="170.8" fill="#000" font-family="Verdana" font-size="12">nombre pieces principales</text>
+</g>
+
+<!-- Entity ADRESSE_LOGEMENT -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<g>
+		<rect x="542" y="9" width="144" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="542" y="34" width="144" height="213" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="542" y="9" width="144" height="238" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="542" y1="34" x2="686" y2="34" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="548" y="26.75" fill="#000" font-family="Verdana" font-size="12">ADRESSE_LOGEMENT</text>
+	<text x="547" y="51.8" fill="#000" font-family="Verdana" font-size="12">Id_adresse</text>
+	<line x1="547" y1="54" x2="615" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="547" y="68.8" fill="#000" font-family="Verdana" font-size="12">No voie</text>
+	<text x="547" y="85.8" fill="#000" font-family="Verdana" font-size="12">B/T/Q</text>
+	<text x="547" y="102.8" fill="#000" font-family="Verdana" font-size="12">code voie</text>
+	<text x="547" y="119.8" fill="#000" font-family="Verdana" font-size="12">#code ID commune</text>
+	<text x="547" y="136.8" fill="#000" font-family="Verdana" font-size="12">voie</text>
+	<text x="547" y="153.8" fill="#000" font-family="Verdana" font-size="12">type de voie</text>
+	<text x="547" y="170.8" fill="#000" font-family="Verdana" font-size="12">prefixe de section</text>
+	<text x="547" y="187.8" fill="#000" font-family="Verdana" font-size="12">section</text>
+	<text x="547" y="204.8" fill="#000" font-family="Verdana" font-size="12">no plan</text>
+	<text x="547" y="221.8" fill="#000" font-family="Verdana" font-size="12">nombre de lot</text>
+	<text x="547" y="238.8" fill="#000" font-family="Verdana" font-size="12">surface terrain</text>
+</g>
+
+<!-- Entity LOT -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<g>
+		<rect x="304" y="187" width="174" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="304" y="212" width="174" height="195" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="304" y="187" width="174" height="220" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="304" y1="212" x2="478" y2="212" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="379" y="204.75" fill="#000" font-family="Verdana" font-size="12">LOT</text>
+	<text x="309" y="229.8" fill="#000" font-family="Verdana" font-size="12">Id_lot</text>
+	<line x1="309" y1="232" x2="345" y2="232" stroke="#000" stroke-width="1"/>
+	<text x="309" y="246.8" fill="#000" font-family="Verdana" font-size="12">1er lot</text>
+	<text x="309" y="263.8" fill="#000" font-family="Verdana" font-size="12">surface carrez du 1er lot</text>
+	<text x="309" y="280.8" fill="#000" font-family="Verdana" font-size="12">2eme lot</text>
+	<text x="309" y="297.8" fill="#000" font-family="Verdana" font-size="12">surface carrez du 2eme lot</text>
+	<text x="309" y="314.8" fill="#000" font-family="Verdana" font-size="12">3eme lot</text>
+	<text x="309" y="331.8" fill="#000" font-family="Verdana" font-size="12">surface carrez du 3eme lot</text>
+	<text x="309" y="348.8" fill="#000" font-family="Verdana" font-size="12">4eme lot</text>
+	<text x="309" y="365.8" fill="#000" font-family="Verdana" font-size="12">surface carrez du 4eme lot</text>
+	<text x="309" y="382.8" fill="#000" font-family="Verdana" font-size="12">5eme lot</text>
+	<text x="309" y="399.8" fill="#000" font-family="Verdana" font-size="12">surface carrez du 5eme lot</text>
+</g>
+
+<!-- Entity MUTATION -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<g>
+		<rect x="171" y="432" width="110" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="171" y="457" width="110" height="93" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="171" y="432" width="110" height="118" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="171" y1="457" x2="281" y2="457" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="193" y="449.75" fill="#000" font-family="Verdana" font-size="12">MUTATION</text>
+	<text x="176" y="474.8" fill="#000" font-family="Verdana" font-size="12">Id_mutation</text>
+	<line x1="176" y1="477" x2="251" y2="477" stroke="#000" stroke-width="1"/>
+	<text x="176" y="491.8" fill="#000" font-family="Verdana" font-size="12">valeur fonciere</text>
+	<text x="176" y="508.8" fill="#000" font-family="Verdana" font-size="12">nature mutation</text>
+	<text x="176" y="525.8" fill="#000" font-family="Verdana" font-size="12">date_mutation</text>
+	<text x="176" y="542.8" fill="#000" font-family="Verdana" font-size="12">no dispositon</text>
+</g>
+
+<!-- Entity COMMUNE -->
+<g class="page_0_Tw4qmIdp diagram_page" visibility="visible">
+	<g>
+		<rect x="330" y="432" width="122" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="330" y="457" width="122" height="93" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="330" y="432" width="122" height="118" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="330" y1="457" x2="452" y2="457" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="359" y="449.75" fill="#000" font-family="Verdana" font-size="12">COMMUNE</text>
+	<text x="335" y="474.8" fill="#000" font-family="Verdana" font-size="12">code ID commune</text>
+	<line x1="335" y1="477" x2="446" y2="477" stroke="#000" stroke-width="1"/>
+	<text x="335" y="491.8" fill="#000" font-family="Verdana" font-size="12">code_commune</text>
+	<text x="335" y="508.8" fill="#000" font-family="Verdana" font-size="12">commune</text>
+	<text x="335" y="525.8" fill="#000" font-family="Verdana" font-size="12">code postal</text>
+	<text x="335" y="542.8" fill="#000" font-family="Verdana" font-size="12">code departement</text>
+</g>
+</svg>
